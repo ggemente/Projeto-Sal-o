@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap';
+}
+
+
+.container {
+    padding: 0 80px;
+}
+
+header {
+    background-color: #F486D6;
+    box-shadow: 0px 0px 10px 5px #999999;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-content: center;
+    align-items: center;
+}
+
+.logo__header  img{
+    max-width: 100px;
+}
+
+.lista__links {
+    list-style: none;
+    display: flex;
+}
+
+.lista__links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.lista__links a :hover{
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.lista__links li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.banner__bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.65  ), rgba(0, 0, 0, 0.65)), url('img/cabetocarreiro.jpg');
+    padding-bottom: 30%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner__text {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+}
+
+.sobre__widht--50 {
+    width: 50%;
+}
+
+#home__sobre {
+    padding: 80px 0;
+}
+
+.sobre__text {
+    font-size: 20px;
+    font-weight: 600;
+}

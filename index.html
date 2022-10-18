@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="jquery.js">
+    <link rel="stylesheet" href="flickity\flickity.pkgd.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <title></title>
+ </head>
+
+
+ <body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo__header">
+                    <img src="hair.png" alt="">
+                </div>
+                <div class="links__header">
+                    <ul class="lista__links">
+                        <a href=""><li>Home</li></a>
+                        <a href=""><li>Sobre Nós</li></a>
+                        <a href=""> <li>Produtos e Serviços</li></a>
+                        <a href=""><li>Contato</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home__banner">
+        <div class="banner__bg">
+
+        </div>
+        
+    </section>
+    <section id="home__sobre">
+        <div class="container dFlex">
+            <div class="sobre__widht--50">
+                <div class="sobre__text">
+                    <p>O Instituto de Beleza Bem Bonita trabalha oferecendo serviços relacionados a unhas, sobrancelhas e cabelos. Cuidar da saúde, beleza e bem estar feminina com modernidade e inovação em equipamentos, procedimentos, produtos e conhecimentos constantes para que nossas clientes tenham a melhor experiência em nossos produtos e serviços.</p>
+                </div>
+            </div>
+            <div class="sobre__widht--50">
+                <div class="sobre__slider">
+                    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                        <div class="carousel-cell">
+                            <img src="img\serv\IMG-20221018-WA0007.jpg" alt="">
+                        </div>
+                        
+                        <div class="carousel-cell">
+                            <img src="img\serv\IMG-20221018-WA0007.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ </body>
+
+ <script src="jquery.js"></script>
+ <script src="flickity\flickity.pkgd.js"></script>
+ <script src="script.js"></script>
+
+ <script>
+    $('.main-carousel').flickity({
+  // options
+    contain: true,
+    cellAlign: 'center',
+
+    });
+ </script>
+ </html>
