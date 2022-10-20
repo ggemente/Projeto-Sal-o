@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Asap';
+    background-color: #ebebeb;
 }
 
 
@@ -20,19 +21,22 @@ body {
 header {
     background-color: #F486D6;
     box-shadow: 0px 0px 10px 5px #999999;
+    padding: 25px 0;
 }
 
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 80px;
     align-content: center;
-    align-items: center;
 }
 
 .logo__header  img{
     max-width: 100px;
+    position: absolute;
+    top: -30px;
+    right: 80px;
 }
 
 .lista__links {
@@ -47,7 +51,7 @@ header {
 }
 
 .lista__links a :hover{
-    color: rgb(0, 0, 0);
+    color: #F486D6;
     transition: 0.2s ease-in-out;
 }
 
@@ -83,7 +87,34 @@ header {
     padding: 80px 0;
 }
 
+img.imgCarousel {
+    border-radius: 50px;
+    border: 1px solid #F486D6;
+}
+
+.sobre__title {
+    margin-bottom: 0.8rem;
+    font-size: 25px;
+    color: #F486D6;
+}
+
 .sobre__text {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
+}
+
+.carousel-cell {
+    padding: 0 20px;
+}
+
+
+.servicos__title {
+    font-size: 25px;
+    text-align: left;
+    color: #000;
+    padding: 0.8rem 0;
+}
+
+.servicos__area{
+    justify-content: space-between;
 }

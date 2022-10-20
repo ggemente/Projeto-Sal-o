@@ -21,11 +21,11 @@
 
  <body>
     <header>
-        <div class="container">
+
+    </header>
+    <section id="home__banner">
+        <div class="banner__bg">
             <div class="navbar">
-                <div class="logo__header">
-                    <img src="hair.png" alt="">
-                </div>
                 <div class="links__header">
                     <ul class="lista__links">
                         <a href=""><li>Home</li></a>
@@ -34,35 +34,78 @@
                         <a href=""><li>Contato</li></a>
                     </ul>
                 </div>
+                <div class="logo__header">
+                    <img src="hair.png" alt="">
+                </div>
             </div>
-        </div>
-    </header>
-    <section id="home__banner">
-        <div class="banner__bg">
-
         </div>
         
     </section>
     <section id="home__sobre">
         <div class="container dFlex">
-            <div class="sobre__widht--50">
+            <div class="sobre__widht--50" style="padding-right: 4%">
+                <div class="sobre__title">
+                    <h1>Sobre nós</h1>
+                </div>
                 <div class="sobre__text">
-                    <p>O Instituto de Beleza Bem Bonita trabalha oferecendo serviços relacionados a unhas, sobrancelhas e cabelos. Cuidar da saúde, beleza e bem estar feminina com modernidade e inovação em equipamentos, procedimentos, produtos e conhecimentos constantes para que nossas clientes tenham a melhor experiência em nossos produtos e serviços.</p>
+                    <p>O Instituto de Beleza Bem Bonita trabalha oferecendo serviços relacionados a unhas, sobrancelhas e cabelos.</p><br>
+                    <p> Cuidar da saúde, beleza e bem estar feminina com modernidade e inovação em equipamentos, procedimentos, produtos e conhecimentos constantes para que nossas clientes tenham a melhor experiência em nossos produtos e serviços.</p>
                 </div>
             </div>
-            <div class="sobre__widht--50">
+            <div class="sobre__widht--50" >
                 <div class="sobre__slider">
-                    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true, "groupCells": 1}'">
                         <div class="carousel-cell">
-                            <img src="img\serv\IMG-20221018-WA0007.jpg" alt="">
+                            <img src="img\serv\criancaCapeta1.png" alt="" class="imgCarousel">
                         </div>
                         
                         <div class="carousel-cell">
-                            <img src="img\serv\IMG-20221018-WA0007.jpg" alt="">
+                            <img src="img\serv\cabeloCostas.png" alt="" class="imgCarousel">
+                        </div>
+
+                        
+                        <div class="carousel-cell">
+                            <img src="img\serv\cabeloCostas2.png" alt="" class="imgCarousel">
+                        </div>
+
+
+                        <div class="carousel-cell">
+                            <img src="img\serv\unhaAzul.png" alt="" class="imgCarousel">
                         </div>
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="home_servicos">
+        <div class="container">
+
+            
+            <div class="servicos__title">
+                <h1>Serviços</h1>
+            </div>
+
+            <div class="servicos__area dFlex">
+
+                <div class="servicos__box">
+                    <div class="box__img">
+                        <img src="img\serv\cabeloCostas.png" alt="">
+                    </div>
+                </div>
+
+                <div class="servicos__box">
+                    <div class="box__img">
+                        <img src="img\serv\cabeloCostas.png" alt="">
+                    </div>
+                </div>
+
+                <div class="servicos__box">
+                    <div class="box__img">
+                        <img src="img\serv\cabeloCostas.png" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -73,11 +116,5 @@
  <script src="script.js"></script>
 
  <script>
-    $('.main-carousel').flickity({
-  // options
-    contain: true,
-    cellAlign: 'center',
-
-    });
  </script>
  </html>
